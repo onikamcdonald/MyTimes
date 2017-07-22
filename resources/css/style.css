@@ -1,0 +1,212 @@
+body {
+  display: block;
+  margin: 8px;
+}
+.logo {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.span {
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  color: black;
+}
+.nav {
+  position: absolute;
+  right: 40px;
+  display: block;
+}
+.nav a {
+  justify: flex-end;
+  text-decoration: underline;
+  padding-left: 40px;
+  color: black;
+  align-items: center;
+  display: inline-block;
+  padding: 20px 10px;
+}
+#mainstory {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#storyA {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 300px;
+}
+#storyB {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 300px;
+}
+#storyC {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+p {
+  font-family: georgia;
+  display: block;
+  font-size: 17px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#research {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.topics {
+  padding-top: 116px;
+  margin-bottom: 78px;
+  display: flex;
+  z-index: 0;
+}
+div#column-large {
+  width: 630px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+div#column-medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+div#column-small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+#cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer p {
+  justify-content: center;
+  font-family: verdana;
+}
+footer div {
+  display: inline-flex;
+  text-align: center;
+  color: black
+}
+#copy {
+  font-size:12px;
+  font-family: verdana;
+}
+.container {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: verdana;
+  font-size: 12px;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#closing {
+  font-family: georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+#nav a {
+  justify-content: center;
+  text-decoration: underline;
+  padding-left: 25px;
+  align-items: center;
+  display: inline-flex;
+  height: 35px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+.news {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+#storyD {
+  display: block;
+}
+#column-small .news {
+  font-size: 12px;
+  color: DimGray;
+  font-family: verdana;
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bottomstories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
